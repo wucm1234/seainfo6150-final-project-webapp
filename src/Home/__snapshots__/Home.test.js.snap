@@ -14,12 +14,31 @@ exports[`renders the home component correctly 1`] = `
         Recipe Website
       </div>
     </div>
-    <img
-      alt="tree frog"
-      class="titleImage"
-      src="https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg"
-      srcset=" https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg 600w, https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg 1000w, https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg 1500w "
-    />
+    <picture>
+      <source
+        class="titleImage"
+        media="(max-width: 600px)"
+        sizes="(max-width: 600px) 600px"
+        srcset="https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg 600w"
+      />
+      <source
+        class="titleImage"
+        media="(max-width: 1000px)"
+        sizes="(max-width: 1000px) 1000px"
+        srcset="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg 1000w"
+      />
+      <source
+        class="titleImage"
+        media="(max-width: 1500px)"
+        sizes="(max-width: 1500px) 1500px"
+        srcset="https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg 1500w"
+      />
+      <img
+        alt="food"
+        class="titleImage"
+        src="https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg"
+      />
+    </picture>
   </header>
   <div
     class="container"

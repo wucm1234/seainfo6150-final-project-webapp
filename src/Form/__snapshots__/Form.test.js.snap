@@ -102,9 +102,7 @@ exports[`renders the home component correctly 1`] = `
         required=""
         type="email"
       />
-      <label
-        for="gender"
-      >
+      <label>
         Gender
       </label>
       <br />
@@ -115,7 +113,7 @@ exports[`renders the home component correctly 1`] = `
         value="male"
       />
       <label
-        for="gender"
+        for="male"
       >
         Male
       </label>
@@ -126,18 +124,18 @@ exports[`renders the home component correctly 1`] = `
         value="female"
       />
       <label
-        for="gender"
+        for="female"
       >
         Female
       </label>
       <input
-        id="unkown"
+        id="unknown"
         name="gender"
         type="radio"
         value="unknown"
       />
       <label
-        for="gender"
+        for="unknown"
       >
         Unknown
       </label>
