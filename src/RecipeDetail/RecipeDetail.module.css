@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+
+.container {
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.recipeImage {
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.ingredients,
+.steps {
+  font-family: "Cairo", sans-serif;
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <div
+      class="recipeImage"
+    >
+      <img
+        alt="Crock Pot Roast"
+        class="image"
+        src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+      />
+    </div>
+    <div
+      class="wrapper"
+    >
+      <h2
+        class="title"
+      >
+        <a
+          class="link"
+          href="/recipe/0"
+        >
+          Crock Pot Roast
+        </a>
+      </h2>
+      <div
+        class="text"
+      >
+        <div>
+          Place beef roast in crock pot.
+        </div>
+        <div>
+          Mix the dried mixes together in a bowl and sprinkle over the roast.
+        </div>
+        <div>
+          Pour the water around the roast.
+        </div>
+        <div>
+          Cook on low for 7-9 hours.
+        </div>
+      </div>
+    </div>
+  </li>
+</div>
+`;

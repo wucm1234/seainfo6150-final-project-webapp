@@ -1,0 +1,53 @@
+.titleImage {
+  width: 100%;
+}
+
+.webTitle {
+  background-color: wheat;
+
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5px 20px 5px 20px;
+  opacity: 0.9;
+}
+@media (max-width: 300px) {
+  .webTitle {
+    font-size: 20px;
+  }
+}
+@media (min-width: 300px) {
+  .webTitle {
+    font-size: 30px;
+  }
+}
+@media (min-width: 600px) {
+  .webTitle {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1000px) {
+  .webTitle {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .webTitle {
+    font-size: 100px;
+  }
+}
+
+.titleWords {
+  opacity: 1;
+}
+
+.header {
+  position: relative;
+}

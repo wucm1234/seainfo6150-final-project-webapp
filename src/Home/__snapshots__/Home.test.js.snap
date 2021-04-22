@@ -2,91 +2,141 @@
 
 exports[`renders the home component correctly 1`] = `
 <div>
-  <div>
-    The home page
-    <h1>
-      I changed this homepage
-    </h1>
+  <header
+    class="header"
+  >
+    <div
+      class="webTitle"
+    >
+      <div
+        class="titleWords"
+      >
+        Recipe Website
+      </div>
+    </div>
     <img
       alt="tree frog"
-      src="treefrog.jpg"
+      class="titleImage"
+      src="https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg"
+      srcset=" https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg 600w, https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg 1000w, https://media.daveandbusters.com/media/5343/web-cover-photo-eat.jpg 1500w "
     />
-    <div>
-      <form>
-        <label
-          for="myTextId"
+  </header>
+  <div
+    class="container"
+  >
+    <h1
+      class="recommendTitle"
+    >
+      Today's Recommend Recipes
+    </h1>
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <div
+          class="recipeImage"
         >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
+          <img
+            alt="Crock Pot Roast"
+            class="image"
+            src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+          />
+        </div>
+        <div
+          class="wrapper"
         >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
-        >
-          <option
-            value="foo"
+          <h2
+            class="title"
           >
-            Foo
-          </option>
-          <option
-            value="bar"
+            <a
+              class="link"
+              href="/recipe/0"
+            >
+              Crock Pot Roast
+            </a>
+          </h2>
+          <div
+            class="text"
           >
-            Bar
-          </option>
-          <option
-            value="baz"
+            <div>
+              Place beef roast in crock pot.
+            </div>
+            <div>
+              Mix the dried mixes together in a bowl and sprinkle over the roast.
+            </div>
+            <div>
+              Pour the water around the roast.
+            </div>
+            <div>
+              Cook on low for 7-9 hours.
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="container"
+      >
+        <div
+          class="recipeImage"
+        >
+          <img
+            alt="Roasted Asparagus"
+            class="image"
+            src="https://d2zupx01utsj9r.cloudfront.net/media/filer_public/98/56/9856a34d-3eac-467a-892d-dab29c378b20/ov_recipe_asparagus_25.jpg"
+          />
+        </div>
+        <div
+          class="wrapper"
+        >
+          <h2
+            class="title"
           >
-            Baz
-          </option>
-        </select>
-        <label
-          for="foo-yes"
-        >
-          yes
-        </label>
-        <input
-          id="foo-yes"
-          name="foo"
-          type="radio"
-          value="yes"
-        />
-        <label
-          for="foo-no"
-        >
-          no
-        </label>
-        <input
-          id="foo-no"
-          name="foo"
-          type="radio"
-          value="no"
-        />
-        <label
-          for="foo-maybe"
-        >
-          maybe
-        </label>
-        <input
-          id="foo-maybe"
-          name="foo"
-          type="radio"
-          value="maybe"
-        />
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
-    </div>
+            <a
+              class="link"
+              href="/recipe/1"
+            >
+              Roasted Asparagus
+            </a>
+          </h2>
+          <div
+            class="text"
+          >
+            <div>
+              Preheat oven to 425°F.
+            </div>
+            <div>
+              Cut off the woody bottom part of the asparagus spears and discard.
+            </div>
+            <div>
+              With a vegetable peeler, peel off the skin on the bottom 2-3 inches of the spears (this keeps the asparagus from being all.",string.", and if you eat asparagus you know what I mean by that).
+            </div>
+            <div>
+              Place asparagus on foil-lined baking sheet and drizzle with olive oil.
+            </div>
+            <div>
+              Sprinkle with salt.
+            </div>
+            <div>
+              With your hands, roll the asparagus around until they are evenly coated with oil and salt.
+            </div>
+            <div>
+              Roast for 10-15 minutes, depending on the thickness of your stalks and how tender you like them.
+            </div>
+            <div>
+              They should be tender when pierced with the tip of a knife.
+            </div>
+            <div>
+              The tips of the spears will get very brown but watch them to prevent burning.
+            </div>
+            <div>
+              They are great plain, but sometimes I serve them with a light vinaigrette if we need something acidic to balance out our meal.
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 `;

@@ -1,0 +1,17 @@
+.errorImg {
+  width: 70%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 30px;
+}
+
+.lostText {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}

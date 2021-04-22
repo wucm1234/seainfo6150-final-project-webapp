@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <h1
+        class="title"
+      >
+        Crock Pot Roast
+      </h1>
+      <div
+        class="recipeImage"
+      >
+        <img
+          alt="Crock Pot Roast"
+          class="image"
+          src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+        />
+      </div>
+    </header>
+    <div
+      class="ingredients"
+    >
+      <h2>
+        Ingredients
+      </h2>
+      <div>
+         beef roast
+        , 
+        1
+      </div>
+      <div>
+        brown gravy mix
+        , 
+        1 package
+      </div>
+      <div>
+        dried Italian salad dressing mix
+        , 
+        1 package
+      </div>
+      <div>
+        dry ranch dressing mix
+        , 
+        1 package
+      </div>
+      <div>
+        water
+        , 
+        1/2 cup
+      </div>
+    </div>
+    <div
+      class="steps"
+    >
+      <h2>
+        Steps
+      </h2>
+      <div>
+        - 
+        Place beef roast in crock pot.
+      </div>
+      <div>
+        - 
+        Mix the dried mixes together in a bowl and sprinkle over the roast.
+      </div>
+      <div>
+        - 
+        Pour the water around the roast.
+      </div>
+      <div>
+        - 
+        Cook on low for 7-9 hours.
+      </div>
+    </div>
+  </div>
+</div>
+`;

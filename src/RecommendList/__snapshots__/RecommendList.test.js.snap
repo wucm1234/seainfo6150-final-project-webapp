@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <img
+          alt="Crock Pot Roast"
+          class="image"
+          src="http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/27/20/8/picVfzLZo.jpg"
+        />
+        <h2
+          class="title"
+        >
+          <a
+            class="link"
+            href="/recipe/0"
+          >
+            Crock Pot Roast
+          </a>
+        </h2>
+      </li>
+      <li
+        class="container"
+      >
+        <img
+          alt="Roasted Asparagus"
+          class="image"
+          src="https://d2zupx01utsj9r.cloudfront.net/media/filer_public/98/56/9856a34d-3eac-467a-892d-dab29c378b20/ov_recipe_asparagus_25.jpg"
+        />
+        <h2
+          class="title"
+        >
+          <a
+            class="link"
+            href="/recipe/1"
+          >
+            Roasted Asparagus
+          </a>
+        </h2>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

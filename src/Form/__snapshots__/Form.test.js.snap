@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <form>
+      <label
+        for="fname"
+      >
+        First Name
+      </label>
+      <input
+        id="fname"
+        name="firstname"
+        placeholder="Your name.."
+        required=""
+        type="text"
+      />
+      <label
+        for="lname"
+      >
+        Last Name
+      </label>
+      <input
+        id="lname"
+        name="lastname"
+        placeholder="Your last name.."
+        required=""
+        type="text"
+      />
+      <label
+        for="mname"
+      >
+        Middle Name
+      </label>
+      <input
+        id="mname"
+        name="middlename"
+        placeholder="Your middle name.."
+        type="text"
+      />
+      <label
+        for="city"
+      >
+        City
+      </label>
+      <input
+        id="city"
+        name="city"
+        placeholder="The city you lived in"
+        type="text"
+      />
+      <label
+        for="country"
+      >
+        Country
+      </label>
+      <select
+        id="country"
+        name="country"
+      >
+        <option
+          value="australia"
+        >
+          Australia
+        </option>
+        <option
+          value="canada"
+        >
+          Canada
+        </option>
+        <option
+          value="usa"
+        >
+          USA
+        </option>
+      </select>
+      <label
+        for="telephone"
+      >
+        Telephone:
+      </label>
+      <input
+        id="telephone"
+        name="telephone"
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+        type="tel"
+      />
+      <small>
+        eg:0000000000
+      </small>
+      <br />
+      <br />
+      <label
+        for="email"
+      >
+        Email:
+      </label>
+      <input
+        id="email"
+        name="email"
+        required=""
+        type="email"
+      />
+      <label
+        for="gender"
+      >
+        Gender
+      </label>
+      <br />
+      <input
+        id="male"
+        name="gender"
+        type="radio"
+        value="male"
+      />
+      <label
+        for="gender"
+      >
+        Male
+      </label>
+      <input
+        id="female"
+        name="gender"
+        type="radio"
+        value="female"
+      />
+      <label
+        for="gender"
+      >
+        Female
+      </label>
+      <input
+        id="unkown"
+        name="gender"
+        type="radio"
+        value="unknown"
+      />
+      <label
+        for="gender"
+      >
+        Unknown
+      </label>
+      <br />
+      <br />
+      <label
+        for="food"
+      >
+        Faverate food
+      </label>
+      <select
+        id="food"
+        name="food"
+      >
+        <option
+          value="none"
+        >
+          Select...
+        </option>
+        <option
+          value="vege"
+        >
+          Vegetable
+        </option>
+        <option
+          value="meat"
+        >
+          Meat
+        </option>
+        <option
+          value="cereal"
+        >
+          Cereal
+        </option>
+      </select>
+      <input
+        type="submit"
+        value="Send it"
+      />
+    </form>
+  </div>
+</div>
+`;

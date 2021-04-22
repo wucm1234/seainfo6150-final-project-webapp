@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./Home";
+import RecipeList from "./RecipeList";
 
 const recipes = {
   0: {
@@ -82,6 +82,6 @@ const recipes = {
   }
 };
 it("renders the home component correctly", () => {
-  const { container } = render(<Home recommendRecipes={Object.values(recipes)}/>);
+  const { container } = render(<RecipeList recipes={Object.values(recipes)}/>);
   expect(container).toMatchSnapshot();
 });

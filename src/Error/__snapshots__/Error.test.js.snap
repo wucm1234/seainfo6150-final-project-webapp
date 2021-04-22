@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <img
+      alt="404 error"
+      class="errorImg"
+      src="https://wpklik.com/wp-content/uploads/2019/03/A-404-Page-Best-Practices-and-Design-Inspiration.jpg"
+    />
+    <p
+      class="lostText"
+    >
+      You seem lost.
+    </p>
+    <p>
+      The page you are trying to reach doesn't exist.
+    </p>
+  </div>
+</div>
+`;

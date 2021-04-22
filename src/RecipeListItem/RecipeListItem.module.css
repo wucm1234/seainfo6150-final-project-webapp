@@ -1,0 +1,31 @@
+.container {
+  background-color: white;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+
+  font-family: "Cairo", sans-serif;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.title {
+  flex: 1;
+  margin: 0 0 20px;
+  color: darkslategrey;
+}
+
+.text {
+  font-size: 12px;
+  margin: 0 0 20px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.link {
+  color: darkslategrey;
+}
